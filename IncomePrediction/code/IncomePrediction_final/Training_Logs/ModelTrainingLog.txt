@@ -1,0 +1,13 @@
+2022-07-14/23:40:29		Entered the get_data method of the Data_Getter class
+2022-07-14/23:40:29		Exception occured in get_data method of the Data_Getter class. Exception message: [Errno 2] No such file or directory: 'Training_FileFromDB/InputFile.csv'
+2022-07-14/23:40:29		Data Load Unsuccessful.Exited the get_data method of the Data_Getter class
+2022-07-14/23:41:12		Entered the get_data method of the Data_Getter class
+2022-07-14/23:41:12		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-15/14:39:42		Entered the get_data method of the Data_Getter class
+2022-07-15/14:39:42		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-15/14:40:26		Entered the get_data method of the Data_Getter class
+2022-07-15/14:40:26		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-15/14:40:57		Entered the get_data method of the Data_Getter class
+2022-07-15/14:40:57		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-15/15:04:40		Entered the get_data method of the Data_Getter class
+2022-07-15/15:04:40		Data Load Successful.Exited the get_data method of the Data_Getter class

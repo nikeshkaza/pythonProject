@@ -1,0 +1,556 @@
+2022-07-17/16:14:39		Start of Training
+2022-07-17/16:14:39		Entered the get_data method of the Data_Getter class
+2022-07-17/16:14:39		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-17/16:14:39		Entered the remove_columns method of the Preprocessor class
+2022-07-17/16:14:39		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-17/16:14:39		Entered the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:14:39		Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:14:39		Entered the separate_label_feature method of the Preprocessor class
+2022-07-17/16:14:39		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-17/16:14:39		Entered the is_null_present method of the Preprocessor class
+2022-07-17/16:14:39		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-17/16:14:39		Entered the impute_missing_values method of the Preprocessor class
+2022-07-17/16:14:39		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-17/16:14:39		Entered the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:14:39		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:14:39		Entered the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:14:39		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:14:39		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:14:39		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:14:39		Entered the elbow_plot method of the KMeansClustering class
+2022-07-17/16:15:08		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-07-17/16:15:08		Entered the create_clusters method of the KMeansClustering class
+2022-07-17/16:15:11		Entered the save_model method of the File_Operation class
+2022-07-17/16:15:11		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:15:11		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-07-17/16:15:11		Entered Training for CLuster:1
+2022-07-17/16:15:11		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:15:11		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:15:11		Unique values of y:[0 1]
+2022-07-17/16:16:17		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:16:17		AUC for XGBoost:0.9357401395457474
+2022-07-17/16:16:17		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:16:18		Naive Bayes best params: {'var_smoothing': 0.5}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:16:18		AUC for RF:0.5816357514261037
+2022-07-17/16:16:18		Entered the save_model method of the File_Operation class
+2022-07-17/16:16:18		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:16:18		Entered Training for CLuster:2
+2022-07-17/16:16:18		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:16:18		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:16:18		Unique values of y:[0 1]
+2022-07-17/16:17:31		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:17:31		AUC for XGBoost:0.8234703494638571
+2022-07-17/16:17:31		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:17:32		Naive Bayes best params: {'var_smoothing': 0.1}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:17:32		AUC for RF:0.6881484392058856
+2022-07-17/16:17:32		Entered the save_model method of the File_Operation class
+2022-07-17/16:17:32		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:17:32		Entered Training for CLuster:3
+2022-07-17/16:17:32		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:17:32		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:17:32		Unique values of y:[1 0]
+2022-07-17/16:17:57		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:17:57		AUC for XGBoost:0.964152382374588
+2022-07-17/16:17:57		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:17:57		Naive Bayes best params: {'var_smoothing': 0.1}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:17:57		AUC for RF:0.7515039839575044
+2022-07-17/16:17:57		Entered the save_model method of the File_Operation class
+2022-07-17/16:17:57		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:17:57		Entered Training for CLuster:0
+2022-07-17/16:17:57		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:17:57		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:17:57		Unique values of y:[1]
+2022-07-17/16:17:57		Exception occured in get_best_params_for_xgboost method of the Model_Finder class. Exception message:  
+All the 40 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+40 fits failed with the following error:
+Traceback (most recent call last):
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 686, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/xgboost/core.py", line 532, in inner_f
+    return f(**kwargs)
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/xgboost/sklearn.py", line 1357, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0], got [1]
+
+2022-07-17/16:17:57		XGBoost Parameter tuning  failed. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:17:57		Exception occured in get_best_model method of the Model_Finder class. Exception message:  
+2022-07-17/16:17:57		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2022-07-17/16:17:57		Unsuccessful End of Training
+2022-07-17/16:18:58		Start of Training
+2022-07-17/16:18:58		Entered the get_data method of the Data_Getter class
+2022-07-17/16:18:58		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-17/16:18:58		Entered the remove_columns method of the Preprocessor class
+2022-07-17/16:18:58		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-17/16:18:58		Entered the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:18:58		Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:18:58		Entered the separate_label_feature method of the Preprocessor class
+2022-07-17/16:18:58		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-17/16:18:58		Entered the is_null_present method of the Preprocessor class
+2022-07-17/16:18:58		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-17/16:18:58		Entered the impute_missing_values method of the Preprocessor class
+2022-07-17/16:18:58		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-17/16:18:58		Entered the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:18:58		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:18:58		Entered the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:18:58		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:18:58		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:18:58		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:18:58		Entered the elbow_plot method of the KMeansClustering class
+2022-07-17/16:19:28		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-07-17/16:19:28		Entered the create_clusters method of the KMeansClustering class
+2022-07-17/16:19:31		Entered the save_model method of the File_Operation class
+2022-07-17/16:19:31		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:19:31		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-07-17/16:19:31		Entered Training for CLuster:0
+2022-07-17/16:19:31		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:19:31		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:19:31		Unique values of y:[0 1]
+2022-07-17/16:20:39		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:20:39		AUC for XGBoost:0.9189325440281434
+2022-07-17/16:20:39		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:20:40		Naive Bayes best params: {'var_smoothing': 0.5}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:20:40		AUC for RF:0.5950316829619785
+2022-07-17/16:20:40		Entered the save_model method of the File_Operation class
+2022-07-17/16:20:40		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:20:40		Entered Training for CLuster:1
+2022-07-17/16:20:40		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:20:40		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:20:40		Unique values of y:[0 1]
+2022-07-17/16:21:51		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:21:51		AUC for XGBoost:0.8218982945926889
+2022-07-17/16:21:51		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:21:51		Naive Bayes best params: {'var_smoothing': 0.1}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:21:51		AUC for RF:0.700037575444447
+2022-07-17/16:21:51		Entered the save_model method of the File_Operation class
+2022-07-17/16:21:51		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:21:51		Entered Training for CLuster:3
+2022-07-17/16:21:51		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:21:51		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:21:51		Unique values of y:[1 0]
+2022-07-17/16:22:21		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:22:21		AUC for XGBoost:0.9694644142781121
+2022-07-17/16:22:21		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:22:21		Naive Bayes best params: {'var_smoothing': 0.1}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:22:21		AUC for RF:0.7349200221204311
+2022-07-17/16:22:21		Entered the save_model method of the File_Operation class
+2022-07-17/16:22:21		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:22:21		Entered Training for CLuster:2
+2022-07-17/16:22:21		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:22:21		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:22:21		Unique values of y:[1]
+2022-07-17/16:22:21		Exception occured in get_best_params_for_xgboost method of the Model_Finder class. Exception message:  
+All the 40 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+40 fits failed with the following error:
+Traceback (most recent call last):
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 686, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/xgboost/core.py", line 532, in inner_f
+    return f(**kwargs)
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/xgboost/sklearn.py", line 1357, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0], got [1]
+
+2022-07-17/16:22:21		XGBoost Parameter tuning  failed. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:22:21		Exception occured in get_best_model method of the Model_Finder class. Exception message:  
+2022-07-17/16:22:21		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2022-07-17/16:22:21		Unsuccessful End of Training
+2022-07-17/16:24:10		Start of Training
+2022-07-17/16:24:10		Entered the get_data method of the Data_Getter class
+2022-07-17/16:24:10		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-17/16:24:10		Entered the remove_columns method of the Preprocessor class
+2022-07-17/16:24:10		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-17/16:24:10		Entered the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:24:10		Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:24:10		Entered the separate_label_feature method of the Preprocessor class
+2022-07-17/16:24:10		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-17/16:24:10		Entered the is_null_present method of the Preprocessor class
+2022-07-17/16:24:10		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-17/16:24:10		Entered the impute_missing_values method of the Preprocessor class
+2022-07-17/16:24:10		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-17/16:24:10		Entered the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:24:10		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:24:10		Entered the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:24:10		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:24:10		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:24:10		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:24:10		Entered the elbow_plot method of the KMeansClustering class
+2022-07-17/16:24:38		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-07-17/16:24:38		Entered the create_clusters method of the KMeansClustering class
+2022-07-17/16:24:41		Entered the save_model method of the File_Operation class
+2022-07-17/16:24:41		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:24:41		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-07-17/16:24:41		Entered Training for CLuster:1
+2022-07-17/16:24:41		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:24:41		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:24:41		Unique values of y:[1 0]
+2022-07-17/16:25:52		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:25:52		AUC for XGBoost:0.9404324669345387
+2022-07-17/16:25:52		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:25:53		Naive Bayes best params: {'var_smoothing': 0.5}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:25:53		AUC for RF:0.5849273117919526
+2022-07-17/16:25:53		Entered the save_model method of the File_Operation class
+2022-07-17/16:25:53		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:25:53		Entered Training for CLuster:3
+2022-07-17/16:25:53		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:25:53		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:25:53		Unique values of y:[1 0]
+2022-07-17/16:27:22		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:27:22		AUC for XGBoost:0.8199962750705859
+2022-07-17/16:27:22		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:27:23		Naive Bayes best params: {'var_smoothing': 0.1}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:27:23		AUC for RF:0.6834696371732669
+2022-07-17/16:27:23		Entered the save_model method of the File_Operation class
+2022-07-17/16:27:23		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:27:23		Entered Training for CLuster:0
+2022-07-17/16:27:23		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:27:23		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:27:23		Unique values of y:[1 0]
+2022-07-17/16:27:54		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:27:54		AUC for XGBoost:0.9527027027027026
+2022-07-17/16:27:54		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:27:54		Naive Bayes best params: {'var_smoothing': 0.1}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:27:54		AUC for RF:0.7813990461049285
+2022-07-17/16:27:54		Entered the save_model method of the File_Operation class
+2022-07-17/16:27:54		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:27:54		Entered Training for CLuster:2
+2022-07-17/16:27:54		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:27:54		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:27:54		Unique values of y:[1]
+2022-07-17/16:27:54		Exception occured in get_best_params_for_xgboost method of the Model_Finder class. Exception message:  
+All the 40 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+40 fits failed with the following error:
+Traceback (most recent call last):
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 686, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/xgboost/core.py", line 532, in inner_f
+    return f(**kwargs)
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/xgboost/sklearn.py", line 1357, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0], got [1]
+
+2022-07-17/16:27:54		XGBoost Parameter tuning  failed. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:27:54		Exception occured in get_best_model method of the Model_Finder class. Exception message:  
+2022-07-17/16:27:54		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2022-07-17/16:27:54		Unsuccessful End of Training
+2022-07-17/16:29:12		Start of Training
+2022-07-17/16:29:12		Entered the get_data method of the Data_Getter class
+2022-07-17/16:29:12		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-17/16:29:12		Entered the remove_columns method of the Preprocessor class
+2022-07-17/16:29:12		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-17/16:29:12		Entered the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:29:12		Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:29:12		Entered the separate_label_feature method of the Preprocessor class
+2022-07-17/16:29:12		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-17/16:29:12		Entered the is_null_present method of the Preprocessor class
+2022-07-17/16:29:12		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-17/16:29:12		Entered the impute_missing_values method of the Preprocessor class
+2022-07-17/16:29:12		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-17/16:29:12		Entered the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:29:12		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:29:12		Entered the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:29:12		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:29:12		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:29:12		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:29:12		Entered the elbow_plot method of the KMeansClustering class
+2022-07-17/16:29:59		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-07-17/16:29:59		Entered the create_clusters method of the KMeansClustering class
+2022-07-17/16:30:02		Entered the save_model method of the File_Operation class
+2022-07-17/16:30:02		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:30:02		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-07-17/16:30:02		Entered Training for CLuster:1
+2022-07-17/16:30:02		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:30:02		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:30:02		Unique values of y:[0 1]
+2022-07-17/16:31:08		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:31:08		AUC for XGBoost:0.9264770491966969
+2022-07-17/16:31:08		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:31:09		Naive Bayes best params: {'var_smoothing': 0.5}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:31:09		AUC for RF:0.5972348700436351
+2022-07-17/16:31:09		Entered the save_model method of the File_Operation class
+2022-07-17/16:31:09		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:31:09		Entered Training for CLuster:3
+2022-07-17/16:31:09		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:31:09		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:31:09		Unique values of y:[1 0]
+2022-07-17/16:32:27		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:32:27		AUC for XGBoost:0.8258589487202519
+2022-07-17/16:32:27		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:32:28		Naive Bayes best params: {'var_smoothing': 0.1}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:32:28		AUC for RF:0.6892369552544289
+2022-07-17/16:32:28		Entered the save_model method of the File_Operation class
+2022-07-17/16:32:28		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:32:28		Entered Training for CLuster:2
+2022-07-17/16:32:28		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:32:28		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:32:28		Unique values of y:[1 0]
+2022-07-17/16:32:56		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:32:56		AUC for XGBoost:0.9553219150126228
+2022-07-17/16:32:56		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:32:56		Naive Bayes best params: {'var_smoothing': 0.1}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:32:56		AUC for RF:0.7299284969237048
+2022-07-17/16:32:56		Entered the save_model method of the File_Operation class
+2022-07-17/16:32:56		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:32:56		Entered Training for CLuster:0
+2022-07-17/16:32:56		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:32:56		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:32:56		Unique values of y:[1]
+2022-07-17/16:32:56		Exception occured in get_best_params_for_xgboost method of the Model_Finder class. Exception message:  
+All the 40 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+40 fits failed with the following error:
+Traceback (most recent call last):
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 686, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/xgboost/core.py", line 532, in inner_f
+    return f(**kwargs)
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/xgboost/sklearn.py", line 1357, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0], got [1]
+
+2022-07-17/16:32:56		XGBoost Parameter tuning  failed. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:32:56		Exception occured in get_best_model method of the Model_Finder class. Exception message:  
+2022-07-17/16:32:56		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2022-07-17/16:32:56		Unsuccessful End of Training
+2022-07-17/16:44:49		Start of Training
+2022-07-17/16:44:49		Entered the get_data method of the Data_Getter class
+2022-07-17/16:44:49		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-17/16:44:49		Entered the remove_columns method of the Preprocessor class
+2022-07-17/16:44:49		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-17/16:44:49		Entered the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:44:49		Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:44:49		Entered the separate_label_feature method of the Preprocessor class
+2022-07-17/16:44:49		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-17/16:44:49		Entered the is_null_present method of the Preprocessor class
+2022-07-17/16:44:49		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-17/16:44:49		Entered the impute_missing_values method of the Preprocessor class
+2022-07-17/16:44:49		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-17/16:44:49		Entered the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:44:49		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:44:49		Entered the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:44:49		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:44:49		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:44:49		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:44:49		Entered the elbow_plot method of the KMeansClustering class
+2022-07-17/16:45:16		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-07-17/16:45:16		Entered the create_clusters method of the KMeansClustering class
+2022-07-17/16:45:19		Entered the save_model method of the File_Operation class
+2022-07-17/16:45:19		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:45:19		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-07-17/16:45:19		Entered Training for CLuster:0
+2022-07-17/16:45:19		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:45:19		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:45:19		Unique values of y:[0 1]
+2022-07-17/16:46:27		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:46:27		AUC for XGBoost:0.92182648692463
+2022-07-17/16:46:27		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:46:29		Start of Training
+2022-07-17/16:46:29		Entered the get_data method of the Data_Getter class
+2022-07-17/16:46:29		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-17/16:46:29		Entered the remove_columns method of the Preprocessor class
+2022-07-17/16:46:29		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-17/16:46:29		Entered the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:46:29		Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:46:29		Entered the separate_label_feature method of the Preprocessor class
+2022-07-17/16:46:29		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-17/16:46:29		Entered the is_null_present method of the Preprocessor class
+2022-07-17/16:46:29		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-17/16:46:29		Entered the impute_missing_values method of the Preprocessor class
+2022-07-17/16:46:29		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-17/16:46:29		Entered the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:46:29		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:46:29		Entered the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:46:29		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:46:29		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:46:29		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:46:29		Entered the elbow_plot method of the KMeansClustering class
+2022-07-17/16:46:59		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-07-17/16:46:59		Entered the create_clusters method of the KMeansClustering class
+2022-07-17/16:47:02		Entered the save_model method of the File_Operation class
+2022-07-17/16:47:02		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:47:02		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-07-17/16:47:02		Entered Training for CLuster:0
+2022-07-17/16:47:02		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:47:02		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:47:02		Unique values of y:[0 1]
+2022-07-17/16:48:00		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:48:00		AUC for XGBoost:0.9243646066826753
+2022-07-17/16:48:00		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:48:01		Naive Bayes best params: {'var_smoothing': 0.5}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:48:01		AUC for RF:0.5836367811730876
+2022-07-17/16:48:01		Entered the save_model method of the File_Operation class
+2022-07-17/16:48:01		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:48:01		Entered Training for CLuster:2
+2022-07-17/16:48:01		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:48:01		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:48:01		Unique values of y:[0 1]
+2022-07-17/16:49:11		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:49:11		AUC for XGBoost:0.8138653323097224
+2022-07-17/16:49:11		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:49:12		Naive Bayes best params: {'var_smoothing': 0.1}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:49:12		AUC for RF:0.6790638315998585
+2022-07-17/16:49:12		Entered the save_model method of the File_Operation class
+2022-07-17/16:49:12		Model File XGBoost2 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:49:12		Entered Training for CLuster:1
+2022-07-17/16:49:12		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:49:12		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:49:12		Unique values of y:[0 1]
+2022-07-17/16:49:37		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:49:37		AUC for XGBoost:0.9603140586034913
+2022-07-17/16:49:37		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:49:37		Naive Bayes best params: {'var_smoothing': 0.1}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:49:37		AUC for RF:0.7358654145885286
+2022-07-17/16:49:37		Entered the save_model method of the File_Operation class
+2022-07-17/16:49:37		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:49:37		Entered Training for CLuster:3
+2022-07-17/16:49:37		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:49:37		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:49:37		Unique values of y:[1]
+2022-07-17/16:49:37		Exception occured in get_best_params_for_xgboost method of the Model_Finder class. Exception message:  
+All the 40 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+40 fits failed with the following error:
+Traceback (most recent call last):
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 686, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/xgboost/core.py", line 532, in inner_f
+    return f(**kwargs)
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/xgboost/sklearn.py", line 1357, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0], got [1]
+
+2022-07-17/16:49:37		XGBoost Parameter tuning  failed. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:49:37		Exception occured in get_best_model method of the Model_Finder class. Exception message:  
+2022-07-17/16:49:37		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2022-07-17/16:49:37		Unsuccessful End of Training
+2022-07-17/16:52:26		Start of Training
+2022-07-17/16:52:26		Entered the get_data method of the Data_Getter class
+2022-07-17/16:52:26		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-17/16:52:26		Entered the remove_columns method of the Preprocessor class
+2022-07-17/16:52:26		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-17/16:52:26		Entered the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:52:26		Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:52:26		Entered the separate_label_feature method of the Preprocessor class
+2022-07-17/16:52:26		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-17/16:52:26		Entered the is_null_present method of the Preprocessor class
+2022-07-17/16:52:27		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-17/16:52:27		Entered the impute_missing_values method of the Preprocessor class
+2022-07-17/16:52:27		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-17/16:52:27		Entered the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:52:27		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:52:27		Entered the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:52:27		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:52:27		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:52:27		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:52:27		Entered the elbow_plot method of the KMeansClustering class
+2022-07-17/16:52:54		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-07-17/16:52:54		Entered the create_clusters method of the KMeansClustering class
+2022-07-17/16:52:57		Entered the save_model method of the File_Operation class
+2022-07-17/16:52:57		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:52:57		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-07-17/16:52:57		Unsuccessful End of Training
+2022-07-17/16:53:48		Start of Training
+2022-07-17/16:53:48		Entered the get_data method of the Data_Getter class
+2022-07-17/16:53:48		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-17/16:53:48		Entered the remove_columns method of the Preprocessor class
+2022-07-17/16:53:48		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-17/16:53:48		Entered the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:53:49		Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+2022-07-17/16:53:49		Entered the separate_label_feature method of the Preprocessor class
+2022-07-17/16:53:49		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-17/16:53:49		Entered the is_null_present method of the Preprocessor class
+2022-07-17/16:53:49		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-17/16:53:49		Entered the impute_missing_values method of the Preprocessor class
+2022-07-17/16:53:49		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-17/16:53:49		Entered the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:53:49		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-07-17/16:53:49		Entered the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:53:49		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-07-17/16:53:49		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:53:49		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-07-17/16:53:49		Entered the elbow_plot method of the KMeansClustering class
+2022-07-17/16:54:16		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2022-07-17/16:54:16		Entered the create_clusters method of the KMeansClustering class
+2022-07-17/16:54:18		Entered the save_model method of the File_Operation class
+2022-07-17/16:54:18		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:54:18		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2022-07-17/16:55:07		Entered Training for CLuster:0
+2022-07-17/16:55:07		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:55:07		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:55:07		Unique values of y:[0 1]
+2022-07-17/16:56:11		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:56:11		AUC for XGBoost:0.9227428202220076
+2022-07-17/16:56:11		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:56:12		Naive Bayes best params: {'var_smoothing': 0.5}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:56:12		AUC for RF:0.5722086670098623
+2022-07-17/16:56:12		Entered the save_model method of the File_Operation class
+2022-07-17/16:56:12		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:56:12		Entered Training for CLuster:3
+2022-07-17/16:56:12		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:56:12		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:56:12		Unique values of y:[1 0]
+2022-07-17/16:57:28		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:57:28		AUC for XGBoost:0.8221649177614277
+2022-07-17/16:57:28		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:57:29		Naive Bayes best params: {'var_smoothing': 0.1}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:57:29		AUC for RF:0.6924142682483888
+2022-07-17/16:57:29		Entered the save_model method of the File_Operation class
+2022-07-17/16:57:29		Model File XGBoost3 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:57:29		Entered Training for CLuster:1
+2022-07-17/16:57:29		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:57:29		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:57:29		Unique values of y:[1 0]
+2022-07-17/16:58:01		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 130}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:58:01		AUC for XGBoost:0.9677224655485526
+2022-07-17/16:58:01		Entered the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:58:01		Naive Bayes best params: {'var_smoothing': 0.1}. Exited the get_best_params_for_naive_bayes method of the Model_Finder class
+2022-07-17/16:58:01		AUC for RF:0.7453744258092084
+2022-07-17/16:58:01		Entered the save_model method of the File_Operation class
+2022-07-17/16:58:01		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2022-07-17/16:58:01		Entered Training for CLuster:2
+2022-07-17/16:58:01		Entered the get_best_model method of the Model_Finder class
+2022-07-17/16:58:01		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:58:01		Unique values of y:[1]
+2022-07-17/16:58:01		Exception occured in get_best_params_for_xgboost method of the Model_Finder class. Exception message:  
+All the 40 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+40 fits failed with the following error:
+Traceback (most recent call last):
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 686, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/xgboost/core.py", line 532, in inner_f
+    return f(**kwargs)
+  File "/Users/nikeshkaza/PycharmProjects/pythonProject/venv/lib/python3.8/site-packages/xgboost/sklearn.py", line 1357, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0], got [1]
+
+2022-07-17/16:58:01		XGBoost Parameter tuning  failed. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-17/16:58:01		Exception occured in get_best_model method of the Model_Finder class. Exception message:  
+2022-07-17/16:58:01		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2022-07-17/16:58:01		Unsuccessful End of Training
