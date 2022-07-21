@@ -26,8 +26,8 @@ def home():
 @cross_origin()
 def predictRouteClient():
     try:
-        if request.json is not None:
-            path = request.json['filepath']
+        if request.form is not None:
+            path = request.form['Predict']
 
             pred_val = pred_validation(path) #object initialization
 
@@ -66,8 +66,8 @@ def predictRouteClient():
 def trainRouteClient():
 
     try:
-        if request.json['folderPath'] is not None:
-            path = request.json['folderPath']
+        if request.form['train'] is not None:
+            path = request.form['train']
             train_valObj = train_validation(path) #object initialization
 
             train_valObj.train_validation()#calling the training_validation function

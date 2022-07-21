@@ -124,3 +124,4 @@
 2020-02-15/16:42:32		Bad files moved to archive!! Bad folder Deleted!!
 2020-02-15/16:42:32		Validation Operation completed!!
 2020-02-15/16:42:32		Extracting csv file from table
+2022-07-21/16:50:42		Start of Validation on files for Training!!

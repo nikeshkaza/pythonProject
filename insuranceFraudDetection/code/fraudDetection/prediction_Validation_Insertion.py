@@ -3,6 +3,7 @@ from Prediction_Raw_Data_Validation.predictionDataValidation import Prediction_D
 from DataTypeValidation_Insertion_Prediction.DataTypeValidationPrediction import dBOperation
 from DataTransformation_Prediction.DataTransformationPrediction import dataTransformPredict
 from application_logging import logger
+from predictFromModel import prediction
 
 class pred_validation:
     def __init__(self,path):
@@ -58,8 +59,6 @@ class pred_validation:
 
         except Exception as e:
             raise e
-
-
 
 
 

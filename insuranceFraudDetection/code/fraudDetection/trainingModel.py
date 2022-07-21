@@ -49,6 +49,7 @@ class trainModel:
             if (is_null_present):
                 data = preprocessor.impute_missing_values(data, cols_with_missing_values)  # missing value imputation
             #encode categorical data
+            #data.to_excel('data/date2.xlsx')
             data = preprocessor.encode_categorical_columns(data)
 
             # create separate features and labels
@@ -103,3 +104,7 @@ class trainModel:
             self.log_writer.log(self.file_object, 'Unsuccessful End of Training')
             self.file_object.close()
             raise Exception
+
+
+#trainModelObj = trainModel() #object initialization
+#trainModelObj.trainingModel() #training the model for the files in the table

@@ -34,6 +34,7 @@ class KMeansClustering:
         try:
             for i in range (1,11):
                 kmeans=KMeans(n_clusters=i,init='k-means++',random_state=42) # initializing the KMeans object
+                data.to_excel('data/data.xlsx')
                 kmeans.fit(data) # fitting the data to the KMeans Algorithm
                 wcss.append(kmeans.inertia_)
             plt.plot(range(1,11),wcss) # creating the graph between WCSS and the number of clusters

@@ -125,3 +125,283 @@
 2020-02-15/16:48:55		Entered the save_model method of the File_Operation class
 2020-02-15/16:48:55		Model File SVM1 saved. Exited the save_model method of the Model_Finder class
 2020-02-15/16:48:55		Successful End of Training
+2022-07-18/15:58:18		Start of Training
+2022-07-18/15:58:18		Entered the get_data method of the Data_Getter class
+2022-07-18/15:58:18		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-18/15:58:18		Entered the remove_columns method of the Preprocessor class
+2022-07-18/15:58:18		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-18/15:58:18		Entered the is_null_present method of the Preprocessor class
+2022-07-18/15:58:18		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-18/15:58:18		Entered the impute_missing_values method of the Preprocessor class
+2022-07-18/15:58:18		Exception occured in impute_missing_values method of the Preprocessor class. Exception message:  X must be a numpy array or pandas dataframe. Got <class 'pandas.core.series.Series'> instead.
+2022-07-18/15:58:18		Imputing missing values failed. Exited the impute_missing_values method of the Preprocessor class
+2022-07-18/15:58:18		Unsuccessful End of Training
+2022-07-18/15:58:52		Start of Training
+2022-07-18/15:58:52		Entered the get_data method of the Data_Getter class
+2022-07-18/15:58:52		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-18/15:58:52		Entered the remove_columns method of the Preprocessor class
+2022-07-18/15:58:52		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-18/15:58:52		Entered the is_null_present method of the Preprocessor class
+2022-07-18/15:58:52		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-18/15:58:52		Entered the impute_missing_values method of the Preprocessor class
+2022-07-18/15:58:52		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-18/15:58:52		Entered the encode_categorical_columns method of the Preprocessor class
+2022-07-18/15:58:52		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-07-18/15:58:52		Entered the separate_label_feature method of the Preprocessor class
+2022-07-18/15:58:52		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-18/15:58:52		Entered the elbow_plot method of the KMeansClustering class
+2022-07-18/15:58:52		Exception occured in elbow_plot method of the KMeansClustering class. Exception message:  Input X contains NaN.
+KMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+2022-07-18/15:58:52		Finding the number of clusters failed. Exited the elbow_plot method of the KMeansClustering class
+2022-07-18/15:58:52		Unsuccessful End of Training
+2022-07-18/16:51:42		Start of Training
+2022-07-18/16:51:42		Entered the get_data method of the Data_Getter class
+2022-07-18/16:51:42		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-18/16:51:42		Entered the remove_columns method of the Preprocessor class
+2022-07-18/16:51:42		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-18/16:51:42		Entered the is_null_present method of the Preprocessor class
+2022-07-18/16:51:42		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-18/16:51:42		Entered the impute_missing_values method of the Preprocessor class
+2022-07-18/16:51:42		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-18/16:51:42		Entered the encode_categorical_columns method of the Preprocessor class
+2022-07-18/16:51:42		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-07-18/16:51:45		Entered the separate_label_feature method of the Preprocessor class
+2022-07-18/16:51:45		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-18/16:51:47		Entered the elbow_plot method of the KMeansClustering class
+2022-07-18/16:51:47		Exception occured in elbow_plot method of the KMeansClustering class. Exception message:  Input X contains NaN.
+KMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+2022-07-18/16:51:47		Finding the number of clusters failed. Exited the elbow_plot method of the KMeansClustering class
+2022-07-18/16:51:52		Unsuccessful End of Training
+2022-07-18/16:54:20		Start of Training
+2022-07-18/16:54:20		Entered the get_data method of the Data_Getter class
+2022-07-18/16:54:20		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-18/16:54:20		Entered the remove_columns method of the Preprocessor class
+2022-07-18/16:54:20		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-18/16:54:20		Entered the is_null_present method of the Preprocessor class
+2022-07-18/16:54:20		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-18/16:54:20		Entered the impute_missing_values method of the Preprocessor class
+2022-07-18/16:54:20		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-18/16:54:20		Entered the encode_categorical_columns method of the Preprocessor class
+2022-07-18/16:54:20		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-07-18/16:54:20		Entered the separate_label_feature method of the Preprocessor class
+2022-07-18/16:54:20		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-18/16:54:25		Entered the elbow_plot method of the KMeansClustering class
+2022-07-18/16:57:33		Start of Training
+2022-07-18/16:57:33		Entered the get_data method of the Data_Getter class
+2022-07-18/16:57:33		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-18/16:57:39		Entered the remove_columns method of the Preprocessor class
+2022-07-18/16:57:39		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-18/16:57:44		Entered the is_null_present method of the Preprocessor class
+2022-07-18/16:57:44		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-18/17:02:22		Entered the impute_missing_values method of the Preprocessor class
+2022-07-18/17:02:22		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-18/17:03:30		Start of Training
+2022-07-18/17:03:30		Entered the get_data method of the Data_Getter class
+2022-07-18/17:03:30		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-18/17:03:30		Entered the remove_columns method of the Preprocessor class
+2022-07-18/17:03:30		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-18/17:03:32		Entered the is_null_present method of the Preprocessor class
+2022-07-18/17:03:32		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-18/17:03:40		Entered the impute_missing_values method of the Preprocessor class
+2022-07-18/17:05:21		Start of Training
+2022-07-18/17:05:21		Entered the get_data method of the Data_Getter class
+2022-07-18/17:05:21		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-18/17:05:21		Entered the remove_columns method of the Preprocessor class
+2022-07-18/17:05:21		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-18/17:05:23		Entered the is_null_present method of the Preprocessor class
+2022-07-18/17:05:23		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-18/17:05:28		Entered the impute_missing_values method of the Preprocessor class
+2022-07-18/17:08:51		Start of Training
+2022-07-18/17:08:51		Entered the get_data method of the Data_Getter class
+2022-07-18/17:08:51		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-18/17:08:51		Entered the remove_columns method of the Preprocessor class
+2022-07-18/17:08:51		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-18/17:08:51		Entered the is_null_present method of the Preprocessor class
+2022-07-18/17:08:51		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-18/17:08:58		Entered the impute_missing_values method of the Preprocessor class
+2022-07-18/17:09:12		Start of Training
+2022-07-18/17:09:12		Entered the get_data method of the Data_Getter class
+2022-07-18/17:09:12		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-18/17:09:12		Entered the remove_columns method of the Preprocessor class
+2022-07-18/17:09:12		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-18/17:09:12		Entered the is_null_present method of the Preprocessor class
+2022-07-18/17:09:12		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-18/17:09:14		Entered the impute_missing_values method of the Preprocessor class
+2022-07-18/17:09:14		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-18/22:25:01		Start of Training
+2022-07-18/22:25:01		Entered the get_data method of the Data_Getter class
+2022-07-18/22:25:01		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-18/22:25:01		Entered the remove_columns method of the Preprocessor class
+2022-07-18/22:25:01		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-18/22:25:01		Entered the is_null_present method of the Preprocessor class
+2022-07-18/22:25:01		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-18/22:25:01		Entered the impute_missing_values method of the Preprocessor class
+2022-07-18/22:25:01		Exception occured in impute_missing_values method of the Preprocessor class. Exception message:  Can only use these strategies: ['mean', 'median', 'most_frequent', 'constant']  got strategy=mode
+2022-07-18/22:25:01		Imputing missing values failed. Exited the impute_missing_values method of the Preprocessor class
+2022-07-18/22:25:01		Unsuccessful End of Training
+2022-07-18/22:25:24		Start of Training
+2022-07-18/22:25:24		Entered the get_data method of the Data_Getter class
+2022-07-18/22:25:24		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-18/22:25:24		Entered the remove_columns method of the Preprocessor class
+2022-07-18/22:25:24		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-18/22:25:24		Entered the is_null_present method of the Preprocessor class
+2022-07-18/22:25:24		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-18/22:25:24		Entered the impute_missing_values method of the Preprocessor class
+2022-07-18/22:25:33		Exception occured in impute_missing_values method of the Preprocessor class. Exception message:  Expected 2D array, got 1D array instead:
+array=['Side Collision' nan 'Rear Collision' 'Front Collision' nan
+ 'Rear Collision' 'Front Collision' 'Front Collision' 'Front Collision'
+ 'Rear Collision' 'Front Collision' 'Front Collision' 'Rear Collision' nan
+ 'Rear Collision' 'Side Collision' 'Rear Collision' 'Side Collision'
+ 'Side Collision' 'Side Collision' 'Rear Collision' 'Side Collision'
+ 'Rear Collision' 'Front Collision' 'Rear Collision' 'Rear Collision' nan
+ nan 'Side Collision' 'Rear Collision' 'Side Collision' 'Side Collision'
+ 'Front Collision' 'Front Collision' 'Side Collision' 'Front Collision'
+ 'Rear Collision' nan 'Rear Collision' 'Front Collision' 'Rear Collision'
+ 'Side Collision' 'Side Collision' 'Rear Collision' 'Front Collision'
+ 'Rear Collision' 'Rear Collision' 'Front Collision' nan 'Rear Collision'
+ 'Front Collision' nan nan 'Side Collision' nan 'Rear Collision'
+ 'Front Collision' nan 'Front Collision' 'Side Collision' 'Rear Collision'
+ 'Side Collision' 'Side Collision' 'Front Collision' 'Rear Collision'
+ 'Front Collision' 'Side Collision' 'Side Collision' 'Front Collision' nan
+ 'Side Collision' 'Front Collision' 'Rear Collision' 'Rear Collision'
+ 'Side Collision' 'Front Collision' 'Front Collision' 'Front Collision'
+ nan 'Rear Collision' 'Side Collision' nan nan nan 'Side Collision'
+ 'Front Collision' 'Front Collision' 'Side Collision' nan 'Side Collision'
+ 'Front Collision' 'Side Collision' nan 'Front Collision' 'Rear Collision'
+ nan 'Side Collision' 'Rear Collision' nan nan 'Rear Collision'
+ 'Side Collision' 'Front Collision' nan 'Side Collision' nan
+ 'Rear Collision' 'Front Collision' 'Front Collision' 'Rear Collision'
+ 'Rear Collision' 'Front Collision' 'Rear Collision' 'Side Collision' nan
+ 'Side Collision' 'Rear Collision' 'Side Collision' 'Rear Collision'
+ 'Rear Collision' 'Side Collision' 'Front Collision' 'Front Collision'
+ 'Front Collision' 'Rear Collision' 'Rear Collision' 'Side Collision' nan
+ 'Front Collision' 'Front Collision' 'Front Collision' 'Front Collision'
+ 'Front Collision' 'Side Collision' 'Side Collision' 'Rear Collision' nan
+ 'Rear Collision' 'Rear Collision' 'Front Collision' 'Rear Collision' nan
+ nan 'Rear Collision' 'Rear Collision' 'Front Collision' 'Side Collision'
+ 'Front Collision' 'Rear Collision' 'Side Collision' 'Side Collision'
+ 'Rear Collision' 'Rear Collision' 'Rear Collision' 'Rear Collision'
+ 'Front Collision' 'Rear Collision' nan 'Front Collision' nan nan
+ 'Front Collision' 'Side Collision' 'Front Collision' 'Rear Collision'
+ 'Side Collision' 'Rear Collision' 'Front Collision' nan nan
+ 'Rear Collision' 'Rear Collision' 'Rear Collision' 'Front Collision' nan
+ 'Rear Collision' 'Front Collision' 'Rear Collision' 'Front Collision' nan
+ 'Side Collision' 'Side Collision' 'Side Collision' 'Rear Collision'
+ 'Front Collision' 'Front Collision' 'Front Collision' nan
+ 'Rear Collision' 'Rear Collision' nan 'Side Collision' 'Front Collision'
+ nan 'Rear Collision' 'Side Collision' nan nan 'Front Collision' nan nan
+ 'Rear Collision' nan 'Rear Collision' 'Rear Collision' 'Rear Collision'
+ 'Rear Collision' 'Side Collision' 'Side Collision' nan nan nan
+ 'Side Collision' 'Side Collision' 'Side Collision' 'Side Collision'
+ 'Front Collision' nan 'Rear Collision' 'Side Collision' 'Front Collision'
+ 'Front Collision' 'Side Collision' 'Side Collision' 'Side Collision'
+ 'Front Collision' 'Rear Collision' 'Front Collision' 'Front Collision'
+ 'Rear Collision' 'Side Collision' 'Side Collision' 'Side Collision'
+ 'Rear Collision' 'Front Collision' 'Side Collision' 'Front Collision'
+ 'Rear Collision' 'Side Collision' 'Front Collision' 'Front Collision'
+ 'Front Collision' nan 'Rear Collision' nan 'Rear Collision'
+ 'Side Collision' 'Rear Collision' nan 'Rear Collision' 'Rear Collision'
+ 'Side Collision' nan 'Side Collision' 'Rear Collision' 'Side Collision'
+ 'Side Collision' 'Side Collision' nan 'Rear Collision' nan
+ 'Front Collision' 'Rear Collision' 'Side Collision' 'Side Collision' nan
+ 'Side Collision' 'Rear Collision' 'Rear Collision' 'Front Collision'
+ 'Rear Collision' nan 'Front Collision' 'Rear Collision' 'Front Collision'
+ 'Front Collision' 'Side Collision' 'Rear Collision' 'Side Collision'
+ 'Side Collision' 'Side Collision' nan nan 'Rear Collision'
+ 'Side Collision' 'Front Collision' 'Rear Collision' nan 'Rear Collision'
+ nan 'Side Collision' 'Front Collision' 'Rear Collision' 'Side Collision'
+ 'Rear Collision' 'Side Collision' 'Front Collision' nan nan
+ 'Rear Collision' nan 'Side Collision' 'Rear Collision' nan
+ 'Rear Collision' 'Front Collision' 'Side Collision' 'Rear Collision'
+ 'Rear Collision' 'Side Collision' 'Rear Collision' 'Front Collision'
+ 'Side Collision' 'Side Collision' 'Side Collision' 'Rear Collision'
+ 'Side Collision' 'Side Collision' 'Rear Collision' 'Side Collision'
+ 'Front Collision' 'Rear Collision' 'Front Collision' 'Rear Collision'
+ 'Rear Collision' 'Side Collision' 'Front Collision' 'Rear Collision'
+ 'Side Collision' 'Front Collision' 'Side Collision' 'Front Collision' nan
+ nan 'Side Collision' 'Rear Collision' 'Side Collision' 'Rear Collision'
+ 'Front Collision' 'Front Collision' 'Side Collision' 'Rear Collision'
+ 'Rear Collision' nan 'Rear Collision' 'Side Collision' 'Rear Collision'
+ 'Front Collision' 'Side Collision' 'Front Collision' 'Side Collision'
+ 'Rear Collision' 'Rear Collision' 'Front Collision' 'Front Collision'
+ 'Rear Collision' 'Side Collision' 'Side Collision' 'Side Collision'
+ 'Side Collision' 'Rear Collision' 'Rear Collision' nan 'Side Collision'
+ nan nan nan 'Front Collision' 'Side Collision' 'Rear Collision'
+ 'Front Collision' 'Side Collision' 'Front Collision' nan 'Side Collision'
+ 'Front Collision' 'Rear Collision' 'Side Collision' 'Side Collision'
+ 'Front Collision' 'Side Collision' 'Front Collision' 'Rear Collision'
+ 'Rear Collision' 'Front Collision' 'Front Collision' 'Side Collision'
+ 'Front Collision' 'Side Collision' 'Front Collision' 'Rear Collision'
+ 'Side Collision' 'Rear Collision' 'Front Collision' 'Rear Collision' nan
+ 'Side Collision' 'Front Collision' nan 'Rear Collision' 'Front Collision'
+ 'Front Collision' 'Rear Collision' 'Side Collision' 'Front Collision'
+ 'Side Collision' 'Rear Collision' 'Side Collision' 'Rear Collision' nan
+ nan nan 'Front Collision' 'Front Collision' nan 'Front Collision'
+ 'Rear Collision' 'Rear Collision' nan 'Side Collision' 'Rear Collision'
+ 'Front Collision' 'Front Collision' 'Side Collision' 'Front Collision'
+ 'Side Collision' 'Front Collision' 'Side Collision' 'Rear Collision'
+ 'Front Collision' 'Front Collision' 'Side Collision' 'Front Collision'
+ 'Front Collision' 'Rear Collision' 'Side Collision' 'Side Collision' nan
+ nan nan 'Rear Collision' 'Front Collision' 'Side Collision' nan nan
+ 'Rear Collision' 'Rear Collision' 'Front Collision' 'Front Collision'
+ 'Rear Collision' 'Rear Collision' 'Side Collision' nan 'Rear Collision'
+ 'Side Collision' 'Front Collision' nan 'Side Collision' 'Side Collision'
+ 'Side Collision' 'Rear Collision' 'Side Collision' 'Front Collision'
+ 'Side Collision' 'Front Collision' 'Rear Collision' 'Side Collision'
+ 'Side Collision' 'Front Collision' 'Side Collision' 'Front Collision'
+ 'Front Collision' 'Side Collision' nan nan 'Side Collision'
+ 'Rear Collision' 'Side Collision' nan 'Front Collision' 'Rear Collision'
+ 'Rear Collision' 'Front Collision' 'Rear Collision' 'Rear Collision'
+ 'Front Collision' 'Rear Collision' 'Rear Collision' 'Side Collision'
+ 'Front Collision' nan 'Front Collision' 'Side Collision' 'Rear Collision'
+ 'Rear Collision' 'Rear Collision' nan 'Rear Collision' 'Front Collision'
+ 'Side Collision'].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+2022-07-18/22:25:33		Imputing missing values failed. Exited the impute_missing_values method of the Preprocessor class
+2022-07-18/22:25:35		Unsuccessful End of Training
+2022-07-18/22:27:40		Start of Training
+2022-07-18/22:27:40		Entered the get_data method of the Data_Getter class
+2022-07-18/22:27:40		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-18/22:27:40		Entered the remove_columns method of the Preprocessor class
+2022-07-18/22:27:40		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2022-07-18/22:27:40		Entered the is_null_present method of the Preprocessor class
+2022-07-18/22:27:40		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-18/22:27:40		Entered the impute_missing_values method of the Preprocessor class
+2022-07-18/22:27:40		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-18/22:27:40		Entered the encode_categorical_columns method of the Preprocessor class
+2022-07-18/22:27:40		encoding for categorical values successful. Exited the encode_categorical_columns method of the Preprocessor class
+2022-07-18/22:27:40		Entered the separate_label_feature method of the Preprocessor class
+2022-07-18/22:27:40		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-18/22:27:40		Entered the elbow_plot method of the KMeansClustering class
+2022-07-18/22:27:44		The optimum number of clusters is: 2 . Exited the elbow_plot method of the KMeansClustering class
+2022-07-18/22:27:44		Entered the create_clusters method of the KMeansClustering class
+2022-07-18/22:27:44		Entered the save_model method of the File_Operation class
+2022-07-18/22:27:44		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-07-18/22:27:44		succesfully created 2clusters. Exited the create_clusters method of the KMeansClustering class
+2022-07-18/22:27:44		Entered the scale_numerical_columns method of the Preprocessor class
+2022-07-18/22:27:44		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-07-18/22:27:44		Entered the scale_numerical_columns method of the Preprocessor class
+2022-07-18/22:27:44		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-07-18/22:27:44		Entered the get_best_model method of the Model_Finder class
+2022-07-18/22:27:44		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-18/22:27:57		XGBoost best params: {'criterion': 'gini', 'max_depth': 9, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-18/22:27:57		AUC for XGBoost:0.6944777911164466
+2022-07-18/22:27:57		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-07-18/22:27:57		SVM best params: {'C': 0.1, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-07-18/22:27:57		AUC for SVM:0.5
+2022-07-18/22:27:57		Entered the save_model method of the File_Operation class
+2022-07-18/22:27:57		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
+2022-07-18/22:27:57		Entered the scale_numerical_columns method of the Preprocessor class
+2022-07-18/22:27:57		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-07-18/22:27:57		Entered the scale_numerical_columns method of the Preprocessor class
+2022-07-18/22:27:57		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-07-18/22:27:57		Entered the get_best_model method of the Model_Finder class
+2022-07-18/22:27:57		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-18/22:28:04		XGBoost best params: {'criterion': 'gini', 'max_depth': 8, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2022-07-18/22:28:04		AUC for XGBoost:0.48
+2022-07-18/22:28:04		Entered the get_best_params_for_svm method of the Model_Finder class
+2022-07-18/22:28:05		SVM best params: {'C': 0.1, 'kernel': 'rbf', 'random_state': 0}. Exited the get_best_params_for_svm method of the Model_Finder class
+2022-07-18/22:28:05		AUC for SVM:0.5
+2022-07-18/22:28:05		Entered the save_model method of the File_Operation class
+2022-07-18/22:28:05		Model File SVM1 saved. Exited the save_model method of the Model_Finder class
+2022-07-18/22:28:05		Successful End of Training
