@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from feature_engine.imputation import CategoricalImputer
+from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler
 from imblearn.over_sampling import RandomOverSampler
 class Preprocessor:
@@ -146,7 +146,7 @@ class Preprocessor:
         self.data= data
         self.cols_with_missing_values=cols_with_missing_values
         try:
-            self.imputer = CategoricalImputer()
+            self.imputer = SimpleImputer(strategy='most_frequent')
             for col in self.cols_with_missing_values:
                 self.data[col] = self.imputer.fit_transform(self.data[col].to_frame())
             self.logger_object.log(self.file_object, 'Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class')
