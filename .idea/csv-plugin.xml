@@ -24,14 +24,21 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/IncomePrediction_copy/Training_FileFromDB/InputFile.csv">
+        <entry key="/creditCardDefaulters/Prediction_Batch_files/creditCardFraud_28011960_120210.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="/IncomePrediction_copy/data/file.csv">
+        <entry key="/insuranceFraudDetection/code/fraudDetection/Prediction_Output_File/Predictions.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/insuranceFraudDetection/code/fraudDetection/data/insuranceFraud.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

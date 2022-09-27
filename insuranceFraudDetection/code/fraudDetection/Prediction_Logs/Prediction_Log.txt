@@ -348,3 +348,13 @@
 2022-09-14/15:52:15		Starting Data Transforamtion!!
 2022-09-14/15:52:15		DataTransformation Completed!!!
 2022-09-14/15:52:15		Creating Prediction_Database and tables on the basis of given schema!!!
+2022-09-23/17:29:28		Start of Validation on files for prediction!!
+2022-09-23/17:29:28		Raw Data Validation Complete!!
+2022-09-23/17:29:28		Starting Data Transforamtion!!
+2022-09-23/17:29:28		DataTransformation Completed!!!
+2022-09-23/17:29:28		Creating Prediction_Database and tables on the basis of given schema!!!
+2022-09-23/17:29:54		Start of Validation on files for prediction!!
+2022-09-23/17:29:54		Raw Data Validation Complete!!
+2022-09-23/17:29:54		Starting Data Transforamtion!!
+2022-09-23/17:29:54		DataTransformation Completed!!!
+2022-09-23/17:29:54		Creating Prediction_Database and tables on the basis of given schema!!!
